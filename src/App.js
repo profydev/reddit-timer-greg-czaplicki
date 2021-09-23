@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-      App Placeholder
+      <h1>Title</h1>
     </div>
   );
 }
