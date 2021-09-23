@@ -1,2 +1,39 @@
-/* font-family: 'Bitter', serif;
-font-family: 'Montserrat', sans-serif; */
+h1 {
+    font-family: "Bitter", serif;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+h2 {
+    font-family: "Bitter", serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.btn {
+    font-size: 14px;
+    line-height: 9px;
+    font-weight: 500;
+    background-color: #fdb755;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 13.5px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fea62e;
+}
