@@ -1,10 +1,25 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Link,
+} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      App Placeholder
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/search">Search</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </Router>
   );
 }
 
